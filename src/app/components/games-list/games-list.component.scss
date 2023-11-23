@@ -1,0 +1,10 @@
+.games-list-wrapper {
+}
+
+.games-list {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
