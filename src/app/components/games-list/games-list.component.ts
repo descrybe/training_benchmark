@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GameLinkComponent } from '../game-link/game-link.component';
+import { gamesInfo } from '../../../constants/games';
 
 @Component({
   selector: 'GamesList',
@@ -9,6 +10,7 @@ import { GameLinkComponent } from '../game-link/game-link.component';
   templateUrl: './games-list.component.html',
   styleUrl: './games-list.component.scss'
 })
-export class GamesListComponent {
 
+export class GamesListComponent {
+  games = gamesInfo
 }
