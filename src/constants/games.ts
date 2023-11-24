@@ -7,7 +7,7 @@ export const gamesInfo = [
   {
     gameTitle: 'Цвета',
     gameDescription: 'Отгадывайте правильные цвета в предложенных парах',
-    path: 'colorstext'
+    path: 'colors'
   },
   {
     gameTitle: 'Последовательности',
