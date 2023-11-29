@@ -1,0 +1,8 @@
+<div>
+  <AimPoint
+    *ngFor="let point of points"
+    [xCoord]="point.currentX"
+    [yCoord]="point.currentY"
+    (onClick)="destroyPoint()"
+  />
+</div>

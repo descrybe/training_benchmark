@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GameLinkComponent } from '../game-link/game-link.component';
-import { gamesInfo } from '../../../constants/games';
+import { gamesInfo } from '../../constants/games';
 
 @Component({
   selector: 'GamesList',

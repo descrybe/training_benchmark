@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { MainPageComponent } from './components/pages/main-page/main-page.component';
-import { AimtrainerComponent } from './components/pages/games/aim-trainer/aimtrainer.component';
+import { AimtrainerComponent } from './components/pages/games/aim-trainer/aim-trainer.component';
 import { ChimpTestComponent } from './components/pages/games/chimp-test/chimp-test.component';
 import { ColorsComponent } from './components/pages/games/colors/colors.component';
 import { NumberMemoryComponent } from './components/pages/games/number-memory/number-memory.component';
